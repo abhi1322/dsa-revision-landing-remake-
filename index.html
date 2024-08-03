@@ -8,10 +8,17 @@
       href="./assets/images/logo.png"
       type="image/x-icon"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>DSA Revision</title>
   </head>
-  <body>
+  <body class="px-4 w-full sm:w-4/6 mx-auto">
     <!-- Nav bar -->
     <header class="w-full h-20 flex items-center justify-center">
       <nav>
@@ -24,7 +31,7 @@
 
     <!-- Hero section -->
     <section
-      class="px-4 w-full sm:w-4/6 mx-auto sm:mt-8 flex flex-col sm:flex-row sm:gap-16"
+      class="px-4 w-full sm:w-4/6 mx-auto sm:mt-16 flex flex-col sm:flex-row sm:gap-16"
     >
       <!-- left side -->
       <div class="flex flex-col justify-center">
@@ -70,7 +77,7 @@
           <img
             src="./assets/images/dsa-main.png"
             alt="cover-img"
-            class="md:w-[60vh]"
+            class="sm:w-[95%]"
           />
           <div
             class="absolute -top-10 right-0 w-32 h-32 flex justify-center items-center text-center text-white font-semibold text-xl leading-[20px] rounded-full bg-green-600 p-8 capitalize"
@@ -82,9 +89,62 @@
     </section>
 
     <!-- What's included -->
+    <section class="flex flex-col mb-16 md:mt-16 items-center">
+      <h6 class="text-2xl font-bold">What's Included</h6>
+      <div class="flex flex-col md:flex-row mt-6 items-center gap-16">
+        <img
+          class="md:w-[40vh]"
+          src="./assets/images/dsa-2.png"
+          alt="cover 2"
+        />
+        <div class="space-y-6 flex flex-col">
+          <ul class="flex flex-col gap-2 text-lg">
+            <li class="flex gap-3 items-center">
+              <i class="fas fa-check-circle text-green-500 text-2xl"></i>15+
+              algo patterns discussed
+            </li>
+            <li class="flex gap-3 items-center">
+              <i class="fas fa-check-circle text-green-500 text-2xl"></i
+              >Detailed solutions and explanations
+            </li>
+            <li class="flex gap-3 items-center">
+              <i class="fas fa-check-circle text-green-500 text-2xl"></i>Awesome
+              resources, articles, blogs
+            </li>
+            <li class="flex gap-3 items-center">
+              <i class="fas fa-check-circle text-green-500 text-2xl"></i
+              >Visualizers and animations included
+            </li>
+            <li class="flex gap-3 items-center">
+              <i class="fas fa-check-circle text-green-500 text-2xl"></i>100
+              pages of quality content
+            </li>
+            <li class="flex gap-3 items-center">
+              <i class="fas fa-check-circle text-green-500 text-2xl"></i
+              >Concepts explained for beginners
+            </li>
+            <li class="flex gap-3 items-center">
+              <i class="fas fa-check-circle text-green-500 text-2xl"></i>All in
+              one revision guide
+            </li>
+          </ul>
+          <button
+            class="mx-auto py-6 rounded-full hover:bg-orange-500 transition-all duration-200 cursor-pointer w-[80%] bg-orange-600 text-white font-bold"
+          >
+            Download for free
+          </button>
+        </div>
+      </div>
+    </section>
 
     <!-- Testimonial -->
 
+    <section>
+      
+    </section>
+
     <!-- Footer-->
+
+    <!-- Script  -->
   </body>
 </html>
